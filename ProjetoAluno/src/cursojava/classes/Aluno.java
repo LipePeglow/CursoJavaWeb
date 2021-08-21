@@ -25,17 +25,10 @@ public class Aluno {
 	}
 
 	public Aluno(String nomePadrao, int idadePadrao) {
-		nomePadrao = nomePadrao;
+		nome = nomePadrao;
 		idade = idadePadrao;
 	}
 
-	
-	
-	
-	/*Metodos SETTERS e GETTERS do Objeto*/
-	/*SET é para adicionar ou receber dados para os atributos*/
-	/*GET é para resgatar ou obter o valor do atributo*/
-	
 	@Override
 	public String toString() {
 		return "Aluno nome = " + getNome() +
@@ -50,7 +43,13 @@ public class Aluno {
 				"\n, serieMatriculado = "
 				+ serieMatriculado + 
 				"\n, idade = " + idade + "]";
-	}
+		
+		}
+	
+	
+	/*Metodos SETTERS e GETTERS do Objeto*/
+	/*SET é para adicionar ou receber dados para os atributos*/
+	/*GET é para resgatar ou obter o valor do atributo*/
 
 	public String getNome() {
 		return nome;
